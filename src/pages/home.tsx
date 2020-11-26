@@ -1,25 +1,19 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import { useParams, useHistory } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
 
 const Home = () => {
 
-    return (
-        <section>
-            <div className="container">
-                <div className="row">
-                    <div className="col-xs-12">
-                        <h1 className='heading'>Pusheens thoughts</h1>
-                    </div>                   
-                </div>
-                <div className="row">
-                    <div className="col-xs-4">
-
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
-}
+  return (
+    <section>
+      <div className="container">
+        <div className="row">
+          <div className="col-xs-12">
+            <h1 className="heading">Pusheens thoughts</h1>
+          </div>
+        </div>
+        <img src="https://images.gr-assets.com/hostedimages/1383443388ra/6559927.gif" alt="" className='pic_cat'/>
+      </div>
+    </section>
+  );
+};
 
 export default Home;
