@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./pages/home";
 import About from "./pages/about";
 import NotFound from "./pages/404";
-import Post from './pages/posts'
+import Post from "./pages/posts";
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 
 const App = () => {
+  
   return (
     <>
       <Router>
